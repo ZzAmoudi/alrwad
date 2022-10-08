@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+}
+/* Start h1 Section  */
+
+.h1-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: var(--main-color);
+  color: var(--main-font-color);
+  overflow: hidden;
+  text-align: center;
+}
+.h1-section img {
+  width: 100px;
+  margin: 80px auto auto;
+}
+.h1-section h1 {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+}
+
+/* END h1 Section  */
+/* Start about-company  */
+
+.about-company {
+  padding: 50px 0;
+}
+.about-company .container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .about-company .container {
+    flex-direction: column;
+  }
+}
+.about-company .container .image {
+  padding: 20px;
+  border-radius: 120px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 20px #777;
+  width: 30%;
+  margin: auto;
+}
+@media (max-width: 991px) {
+  .about-company .container .image {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .about-company .container .image {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+}
+.about-company .container .image img {
+  max-width: 70%;
+}
+.about-company .container .text {
+  direction: rtl;
+  width: 50%;
+  border-right: 5px solid var(--color-two);
+  padding-right: 20px;
+}
+@media (max-width: 768px) {
+  .about-company .container .text {
+    width: 95%;
+  }
+}
+.about-company .container .text h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  line-height: 1;
+}
+
+/* End about-company  */
+
+/* Start About More  */
+
+.about-more {
+  padding: 50px 0;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  z-index: 1;
+}
+.about-more .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.about-more .container .box {
+  width: 300px;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  max-width: 90%;
+  direction: rtl;
+}
+
+.about-more .container h3 {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-more .container i {
+  font-size: 40px;
+  margin: 0;
+  color: var(--main-font-color);
+}
+
+.about-more .container p {
+  font-size: 16px;
+}
+.about-more .container ul {
+  direction: rtl;
+}
+.about-more .container ul li {
+  font-size: 14px;
+  position: relative;
+  border-top: 1px solid #ddd;
+  padding: 10px 20px 10px 0;
+}
+.about-more .container ul li::before {
+  content: "✔";
+  position: absolute;
+  padding-right: 20px;
+  right: -20px;
+}
+
+/* End About More  */

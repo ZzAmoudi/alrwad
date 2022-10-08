@@ -1,0 +1,34 @@
+/* Start main-about */
+body {
+  background-color: white;
+}
+.h1-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: var(--main-color);
+  color: var(--main-font-color);
+  overflow: hidden;
+  text-align: center;
+}
+.h1-section img {
+  width: 100px;
+  margin: 80px auto auto;
+}
+.h1-section h1 {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+}
+
+/* END h1 Section  */
+
+/* End main-about  */
+
+/* Start Other-Services  */
+
+.our-services {
+  box-shadow: var(--box-shadow);
+  z-index: 1;
+}
+
+/* End Other-Services  */
