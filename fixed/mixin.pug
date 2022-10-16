@@ -1,4 +1,3 @@
-include vars.pug
 
 mixin header 
   header 
@@ -96,15 +95,6 @@ mixin services-list
       .box(data-aos="zoom-in")
         h3 تنظيف شركات   
 
-//- mixin sticky-whatsapp 
-  a(
-    href="https://wa.me/+966566662738"
-    class="float"
-    target="_blank"
-    title="whatsapp"
-    )
-      img(src=mainLink + "/Images/whatsapp.svg" alt="تواصل واتساب")
-
 mixin contact 
   section.contact#contact
     h2 تواصل معنا
@@ -112,7 +102,7 @@ mixin contact
 
       div(class="box box-email" data-aos="fade-right")
         img(src=mainLink + "/Images/gmail.svg" alt="البريد الالكتروني")
-        p Arowadclean.co@gmail.com
+        p Alrwoadclean.co@gmail.com
         .button-holder
           a(
             href="mailto:Arowadclean.co@gmail.com"
@@ -121,10 +111,8 @@ mixin contact
             title="whatsapp"
           ) إضغط للتواصل
 
-      
-
       div(class="box city one" data-aos="fade-left")
-        h4 رقم التواصل
+        h3 رقم التواصل
         p 056-666-2738
         .btns
           a(
@@ -142,31 +130,6 @@ mixin contact
             title="الاتصال بالهاتف"
             )
             img(src=mainLink + "/Images/phone.svg", alt="الهاتف")
-
-      //- div(class="box city" data-aos="fade-left")
-      //-   h4 المدينة المنورة
-      //-   p 050-334-9612
-      //-   .btns
-      //-     a(
-      //-         href="https://wa.me/+966503349612"
-      //-         class="whatsapp button"
-      //-         target="_blank"
-      //-         title="تواصل واتساب"
-      //-       )
-      //-       img(src=mainLink + "/Images/whatsapp.svg", alt="واتساب")
-      //-       //- img(src="", alt="")
-      //-     a(
-      //-         href="tel:+966503349612"
-      //-         class="phone button"
-      //-         target="_blank"
-      //-         title="الاتصال بالهاتف"
-      //-       )
-      //-       img(src=mainLink + "/Images/phone.svg", alt="الهاتف")
-          
-          
-
-
-    
 
 
       //- div(class="box location" data-aos="fade-up")
